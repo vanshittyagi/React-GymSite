@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-GymSite/static/css/main.e3eb06c8.css",
+    "main.js": "/React-GymSite/static/js/main.fe3b83b1.js",
+    "static/media/noise.png": "/React-GymSite/static/media/noise.1dc83ec355e161c630fd.png",
+    "index.html": "/React-GymSite/index.html",
+    "main.e3eb06c8.css.map": "/React-GymSite/static/css/main.e3eb06c8.css.map",
+    "main.fe3b83b1.js.map": "/React-GymSite/static/js/main.fe3b83b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3eb06c8.css",
+    "static/js/main.fe3b83b1.js"
+  ]
+}
