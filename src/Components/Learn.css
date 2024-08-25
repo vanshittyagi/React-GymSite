@@ -1,0 +1,71 @@
+.about-gym {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.sectiony {
+    margin-bottom: 40px;
+}
+
+.sectiony h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #f48915;
+    text-transform: uppercase;
+}
+
+.sectiony p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.sectiony ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.sectiony ul li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.ourgymimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.ourgymimages img{
+    width: 550px;
+    height: 400px;
+}
+.buttonlearn {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    align-items: center;
+}
+.buttonlearn button{
+    background-color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 300;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.buttonlearn img {
+    width: 100px;
+    height: 100px;
+    filter: invert(62%) sepia(106%) saturate(2001%) hue-rotate(6deg) brightness(100%) contrast(102%);
+}
+

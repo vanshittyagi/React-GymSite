@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.navbar img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2rem;
+    filter: invert(62%) sepia(106%) saturate(2001%) hue-rotate(6deg) brightness(100%) contrast(102%);
+
+
+}
+.nav-items ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 300px;
+}
+.nav-items ul li:hover{
+    color: orange;
+}
+.button button{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    z-index: 1;
+    font-size: 1.2 rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

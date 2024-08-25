@@ -1,0 +1,52 @@
+.heartbeat{
+    display: flex;
+    flex-direction: column;
+    background-color: #3c3f45;
+    padding: 10px 15px;
+    border-radius: 5px;
+    height: 100px;
+    width: 80px;
+    position: absolute;
+    right: 3rem;
+    top: 8rem;
+}
+.heartbeat h1 {
+    font-size: 1rem;
+    color: grey;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.heartbeat p {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.heartbeat img {
+    width: 30px;
+    height: 30px;
+}
+.hero-container {
+    background-color: #f48916;
+    width: 22%;
+    z-index: -1;
+    position: relative;
+    top: -8.3rem;
+    height: 95vh;
+}
+.image img {
+    width: 388px;
+    height: 520px;
+    position: absolute;
+    left: -10rem;
+    top: 10rem;
+}
+.bgimg img{
+    position: absolute;
+    left: -13rem;
+    top: 9rem;
+    height: 520px;
+    z-index: -100;
+}

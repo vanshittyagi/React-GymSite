@@ -1,0 +1,127 @@
+
+.blur2 {
+    background-color: rgba(253, 120, 43, .69);
+    border-radius: 50%;
+    filter: blur(150px);
+    position: absolute;
+    z-index: -1;
+    height: 30rem;
+    width: 22rem;
+    bottom: 50px;
+    left: 30px;
+}
+.blur3 {
+    background-color: rgba(253, 120, 43, .69);
+    border-radius: 50%;
+    filter: blur(150px);
+    position: absolute;
+    z-index: -1;
+    height: 30rem;
+    width: 22rem;
+    bottom: 50px;
+    right: 30px;
+}
+.Ready{
+    color: white;
+    margin-top: 6%;
+    position: relative;
+}
+.cardys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.readyhead h1 {
+    font-size: 2.5rem;
+    color:  white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: center;
+}
+.pointt1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.pointt1 h10 {
+    
+    font-size: 1.2rem;
+}
+
+.cardy1{
+    background-color: #808080;
+    height: 480px;
+    padding: 2rem;
+    position: relative;
+    width: 240px;
+    color: white;
+}
+.cardy1 img{
+    width: 32px;
+    height: 32px;
+}
+.cardy1 button{
+    text-align: center;
+    padding: 10px 60px 10px 60px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 1.13rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+.cardy2{
+    background: linear-gradient(210.41deg, rgb(250, 80, 66) 1.14%, rgb(255, 167, 57) 100.75%);
+    height: 520px;
+    padding: 2rem;
+    position: relative;
+    max-width: 240px;
+    color: white;
+}
+.cardy2 img{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 0;
+}
+.cardy2 button{
+    text-align: center;
+    padding: 10px 60px 10px 60px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 1.13rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+.cardy1 h2{
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.cardy1 h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.cardy2 h2{
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.cardy2 h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.pointt1 img {
+    width: 20px;
+    height: 20px;
+}

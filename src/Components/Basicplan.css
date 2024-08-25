@@ -1,0 +1,186 @@
+.Basic {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .buttonlearn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttonlearn button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttonlearn img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .leftrightsec {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .leftbasic, .rightbasic {
+    width: 48%;
+  }
+  .leftbasic {
+    
+    margin-left: 4%;
+  }
+  
+  .leftbasic h1 {
+    font-size: 3rem;
+    color: #f48915;
+    margin-bottom: 10px;
+  }
+  
+  .leftbasic h2 {
+    font-size: 2.5em;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .basicpoints .pointt1 span{
+    font-size: 1.35rem;
+    color: white;
+  }
+  .basicpoints .pointt1 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .basicpoints img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .rightbasic {
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .tracking {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .upbasic h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  .tracking b{
+    padding: 3px 5px 3px 8px;
+    background-color: #cccccc;
+    border-radius: 50%;
+  }
+  .tracking h3 b{
+    background-color: #28a745 ;
+  }
+  .tracking h1, .tracking h2, .tracking h3 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .basicbox1 h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .basicbox1 input[type="radio"] {
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #ccc;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+.basicbox1 input[type="radio"]:hover,
+.basicbox1 input[type="radio"]:checked {
+    background-color: black;
+    border-color: black;
+}
+  .basicbox1, .basicbox2, .upbasic{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f48915;
+  }
+  .basicmode, .flex {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+  }
+  
+  label span {
+    margin-left: 10px;
+    font-size: 1.2em;
+  }
+  
+  .basicbox2 {
+    margin-top: -35px;
+  }
+  
+  .totalvalue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+  
+  .totalvalue h1 {
+    font-size: 1.5em;
+  }
+  
+  .totalvalue p {
+    font-size: 2rem;
+    color: white;
+    margin-right: 20px;
+    font-weight: 700;
+  }
+  
+  .payinpbtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -20px;
+  }
+  
+  .payinpbtn input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .payinpbtn button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
